@@ -1,0 +1,60 @@
+body {
+    background-color: #082B58;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+#title {
+    font-family: "Oswald";
+    font-size: 60px;
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+
+#board {
+    width: 300px;
+    height: 300px;
+    border: 10px solid #000000;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board img {
+    width: 98px;
+    height: 98px;
+    border: 1px solid #373737;
+}
+
+.instructions {
+    color: white;
+    /* font-weight: bold; */
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+}
+
+/* 
+#learn_more a {
+    font-size: 20px;
+    font-family: "Oswald";
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: #bc122c;
+} */
+
+
+
